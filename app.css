@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+
+    background-color: red;
+    border: 10px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 90px;
+    width: 90;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
